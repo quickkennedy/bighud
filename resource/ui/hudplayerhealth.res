@@ -75,19 +75,172 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerHealthValue"
-		"xpos"			"76"
+		"xpos"			"76-25"
 		"xpos_minmode"	"61"
-		"ypos"			"51"	[$WIN32]
+		"ypos"			"51-10"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"20"
+		"wide"			"100"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"0 255 0 255" //"TanDark"
+	}
+	
+	"PlayerHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow"
+		"xpos"			"-2"
+		"xpos_minmode"	"-2"
+		"ypos"			"-2"	[$WIN32]
+		"ypos"			"-2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow2"
+		"xpos"			"-2"
+		"xpos_minmode"	"-2"
+		"ypos"			"0"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow3"
+		"xpos"			"-2"
+		"xpos_minmode"	"-2"
+		"ypos"			"2"	[$WIN32]
+		"ypos"			"2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow4"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"2"	[$WIN32]
+		"ypos"			"2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow5"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow5"
+		"xpos"			"2"
+		"xpos_minmode"	"2"
+		"ypos"			"2"	[$WIN32]
+		"ypos"			"2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow6"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow6"
+		"xpos"			"2"
+		"xpos_minmode"	"2"
+		"ypos"			"0"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow7"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow7"
+		"xpos"			"2"
+		"xpos_minmode"	"2"
+		"ypos"			"-2"	[$WIN32]
+		"ypos"			"-2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
+	}
+	"PlayerHealthValueShadow8"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerHealthValueShadow8"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"-2"	[$WIN32]
+		"ypos"			"-2"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"PlayerHealthValue"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
