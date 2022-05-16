@@ -63,3 +63,68 @@ event HudHealthDyingPulseStop
 	
 	Animate	PlayerStatusHealthValue			FgColor		"TanLight"		Accel 0.0 0.0
 }
+//==========================================================================================================================
+// AMMO ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+event HudLowAmmoPulse
+{
+
+//	Animate	HudWeaponLowAmmoImage		Alpha		"255"			Linear 0.0 0.075
+//	Animate	HudWeaponLowAmmoImage		Alpha		"0"				Linear 0.125 0.075
+	
+	Animate AmmoInReserve		Fgcolor		"255 255 0 255"		Linear 0.0 0.075
+	Animate AmmoInReserve		Fgcolor		"0 255 0 255"				Linear 0.125 0.075
+
+	Animate AmmoInClip		Fgcolor		"255 255 0 255"		Accel 0.0 0.075 //0
+	Animate AmmoInClip		Fgcolor		"0 255 0 255"				Accel 0.125 0.075 //0.125
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+	
+	StopPanelAnimations AmmoInReserve 	0.0
+	StopPanelAnimations AmmoNoClip		0.0
+	
+	Animate AmmoInReserve		Fgcolor		"0 255 0 255"		Linear 0.0 0.1
+	Animate AmmoInClip		Fgcolor		"0 255 0 255"		Linear 0.0 0.1
+}
+
+//==========================================================================================================================
+// AMMO ANIMATION
+//--------------------------------------------------------------------------------------------------------------------------
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"0 255 255 255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"0 255 0 255"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"0 255 255 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"0 255 0 255"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"0 255 0 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"255 255 255"		Linear 0.0 0.0001
+}
