@@ -6,8 +6,10 @@
 	{
 		"xpos_minmode"	"r52"
 		"ypos_minmode"	"r68"
-		"x_offset"			"40"
+		"x_offset"			"27"
 		"x_offset_minmode"	"0"
+		"ypos"			"r55"
+		//"xpos"			"r165"
 	}
 
 	"ItemEffectMeterBG"
