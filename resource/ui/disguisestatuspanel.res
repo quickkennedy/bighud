@@ -32,9 +32,9 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"10"
+		"xpos"			"99999"
 		"xpos_minmode"			"10"
-		"ypos"			"30"
+		"ypos"			"99999"
 		"ypos_minmode"			"48"
 		"zpos"			"-1"
 		"wide"			"200"
@@ -81,6 +81,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"		"0 255 0 255"
 	}
 
 	"WeaponNameLabel"
@@ -104,6 +105,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"		"0 255 0 255"
 	}
 
 	"SpectatorGUIHealth"
