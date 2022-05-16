@@ -18,9 +18,9 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"10"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
+		"ypos"			"r75"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
@@ -38,9 +38,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
+		"xpos"			"-10"		[$WIN32]
 		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"r67"	[$WIN32]
+		"ypos"			"r55"	[$WIN32]
 		"ypos_minmode"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
@@ -80,9 +80,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
+		"xpos"			"99999"		[$WIN32]
 		"xpos_minmode"	"-10"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
