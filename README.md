@@ -1,3 +1,1 @@
-# bighud
-
-thoughts and ideas
+made for bonkers
